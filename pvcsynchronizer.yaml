@@ -33,7 +33,7 @@ spec:
         
         
         # 3. Nazwa podfolderu na PVC, do którego trafią pliki (np. /tmp/git-data/pliki)
-        - --dest=files          
+        - --dest=storage-rwx          
         
         # 4. Jak czesto (w sekundach) sprawdzać Git i dociągać nowe pliki
         - --wait=60                    
