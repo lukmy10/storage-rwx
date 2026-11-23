@@ -25,7 +25,7 @@ spec:
         image: registry.k8s.io/git-sync/git-sync:v4.2.3
         args:
         # 1. Konfiguracja Twojego repozytorium Git z plikami
-        - --repo=https://github.com/lukmy10/storage
+        - --repo=https://github.com/lukmy10/storage-rwx
         - --ref=main
         
         # 2. Gdzie w kontenerze zamontowane jest PVC
@@ -53,4 +53,4 @@ spec:
       - name: target-pvc-volume
         persistentVolumeClaim:
           # 5. Wpisz dokładnie nazwę swojego ISTNIEJĄCEGO dysku PVC
-          claimName: rbd-pvc-sync-argocd
+          claimName: rbd-pvc-nginx-argocd-rwx
