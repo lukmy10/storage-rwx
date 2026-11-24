@@ -2,7 +2,8 @@
 
 📦 **Companion Git repository for demonstrating Git-to-PVC synchronization using Argo CD and Rook CephFS (`ReadWriteMany`).**
 
-This repository works alongside the **[NextGen DevOps Platform](https://github.com)** to showcase how multiple Kubernetes pods can concurrently read from and write to a shared persistent volume.
+This repository works alongside the **# NextGen V2 DevOps Platform: ArgoCD, GitOps & CephFS (Multi-Cloud)
+** to showcase how multiple Kubernetes pods can concurrently read from and write to a shared persistent volume.
 
 ---
 
